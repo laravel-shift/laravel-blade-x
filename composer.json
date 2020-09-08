@@ -44,11 +44,11 @@
     ],
     "require": {
         "php": "^7.2",
-        "illuminate/view": "~5.8.0|^6.0"
+        "illuminate/view": "~5.8.0|^6.0|^8.0"
     },
     "require-dev": {
-        "orchestra/testbench": "~3.8.0|^4.0",
-        "phpunit/phpunit": "^8.0",
+        "orchestra/testbench": "~3.8.0|^4.0|^6.0",
+        "phpunit/phpunit": "^8.0|^9.3",
         "spatie/phpunit-snapshot-assertions": "^2.1"
     },
     "autoload": {
@@ -64,7 +64,6 @@
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
